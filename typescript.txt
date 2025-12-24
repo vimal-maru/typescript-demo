@@ -1,0 +1,26 @@
+1. Init the node project
+npm init -y
+
+2. install the type script in project only
+npm i -D typescript
+
+3. Created a new tsconfig.json 
+npx tsc --init
+
+4. compile the all ts files on src folder
+npx tsc
+
+
+---------------
+1. install type globally 
+
+npm install -g typescript
+
+1. install type project specific
+
+npm install typescript --save-dev
+
+
+continus watch
+
+npx tsc filename.js --watch
